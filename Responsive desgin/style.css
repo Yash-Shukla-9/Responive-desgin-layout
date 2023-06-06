@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 30fr 60fr;
+  gap: 1rem;
+}
+
+.left {
+  height: 10vh;
+  background-color: rgb(133, 133, 234);
+}
+
+.right {
+  height: 10vh;
+  background-color: rgb(158, 152, 152);
+}
+
+.section {
+  height: 40vh;
+  margin: 0 1rem;
+  background-color: grey;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.box {
+  width: 28vw;
+  height: 30vh;
+  margin: 0.5rem;
+  background-color: lightblue;
+}
+
+.foot {
+  /* width: 95%; */
+  margin: 1rem;
+  background-color: lightgrey;
+  height: 30vh;
+}
+
+@media screen and (max-width: 820px) {
+  .box {
+    height: 20vh;
+  }
+}
